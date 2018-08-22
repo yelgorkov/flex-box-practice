@@ -1,0 +1,69 @@
+#container {
+	width: 100%;
+}
+
+#horizontal-up {
+	display: flex;
+	flex-direction: row;
+	height: 50vh;
+}
+
+#horizontal-down {
+	display: flex;
+	flex-direction: row;
+	height: 50vh;
+}
+
+#vertical {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.up-section {
+	width: calc(100%/3);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+#yellow {
+	background-color: yellow;
+}
+
+#green {
+	background-color: green;
+}
+
+#blue {
+	background-color: blue;
+}
+
+#navy {
+	flex-direction: column; 
+	background-color: navy;
+	height: 50vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#violet {
+	background-color: violet;
+	height: 50vh;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#red {
+	background-color: red;
+	width: calc(100%/3*2);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+	text-align: center;
+}
